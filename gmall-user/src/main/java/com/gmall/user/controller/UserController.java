@@ -1,11 +1,10 @@
 package com.gmall.user.controller;
 
-import com.gmall.user.bean.UmsMember;
-import com.gmall.user.bean.UmsMemberReceiveAddress;
-import com.gmall.user.service.UserService;
+import com.gmall.api.bean.UmsMember;
+import com.gmall.api.bean.UmsMemberReceiveAddress;
+import com.gmall.api.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
